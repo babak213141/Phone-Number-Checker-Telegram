@@ -1,6 +1,8 @@
 # Phone-Number-Checker-Telegram
 
 ```
+from number_checker import NumberChecker
+
 if __name__ == '__main__':
     api_id = 123456
     api_hash = "80b54f07..."
