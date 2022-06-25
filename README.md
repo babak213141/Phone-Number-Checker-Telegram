@@ -1,6 +1,6 @@
 # Phone-Number-Checker-Telegram
 
-```
+```python
 from number_checker import NumberChecker
 
 if __name__ == '__main__':
