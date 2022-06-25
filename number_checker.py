@@ -6,6 +6,8 @@ class NumberChecker:
             self.app = Client(session_name, api_id, api_hash, phone_number=phone_number)
         elif app:
             self.app.start()
+        else:
+            raise ValueError
     def getPhones(self, listOfPhones: list[str]):
         if listOfPhones:
             check = self.app.import_contacts([InputPhoneContact(phone, "") for phone in listOfPhones])
